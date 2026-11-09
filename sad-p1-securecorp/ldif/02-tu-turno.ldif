@@ -1,3 +1,17 @@
+# Entrada 3: Hugo Diez
+dn: uid=hdiez,ou=people,dc=securecorp,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Hugo Diez
+sn: Diez
+uid: hdiez
+uidNumber: 10004
+gidNumber: 10000
+homeDirectory: /home/hdiez
+mail: hdiez@securecorp.local
+loginShell: /bin/bash
+
 # Entrada 1: Tu usuario
 dn: uid=samuelpina2510,ou=people,dc=securecorp,dc=local
 objectClass: inetOrgPerson
@@ -38,3 +52,4 @@ dn: cn=sistemas,ou=groups,dc=securecorp,dc=local
 objectClass: groupOfNames
 cn: sistemas
 member: uid=samuelpina2510,ou=people,dc=securecorp,dc=local
+member: uid=hugodiez,ou=people,dc=securecorp,dc=local
